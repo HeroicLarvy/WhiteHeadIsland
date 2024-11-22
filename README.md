@@ -23,7 +23,7 @@ git config --global user.name "Your Name"
 2. Open the folder of the repo if it is not already selected, via File>Open Folder
 3. Open a terminal if one is not already open, via Terminal>New Terminal
 4. Run ```git pull```
-5. Do your work on Reforger tools
+5. Do your work on Reforger tools, refer to the World Editor section before the next step if you are new
 6. Save your work
 7. Open VSCode and within the terminal, for each change you are comfortable with pushing enter the following commands
 ```
