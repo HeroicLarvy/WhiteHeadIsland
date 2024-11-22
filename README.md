@@ -19,7 +19,7 @@ git config --global user.name "Your Name"
 6. In the Terminal, Clone the repo using ```git clone https://github.com/HeroicLarvy/WhiteHeadIsland.git```
 
 # Workflow
-1. Before starting work, ensure you have a terminal as well.
+1. Before starting work, open VSCode.
 2. Open the folder of the repo if it is not already selected, via File>Open Folder
 3. Open a terminal if one is not already open, via Terminal>New Terminal
 4. Run ```git pull```
