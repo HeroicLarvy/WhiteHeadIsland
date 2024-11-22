@@ -1,0 +1,8 @@
+GameProject {
+ ID "WhiteHeadIsland"
+ GUID "62E63D6BD09C3404"
+ TITLE "WhiteHead Island"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

@@ -1,0 +1,7 @@
+SatGenDescClass {
+ FileName "C:/Users/Garon/Documents/gtt_export/gtt_satmap.png"
+ sRGBOutput 0
+ RenderRoads 1
+ Interpolation bilinear
+ RoadsAA "8x"
+}

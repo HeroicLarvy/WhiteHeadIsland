@@ -1,0 +1,5 @@
+TerrainMaterial {
+ BCRMap "{64117D36C00B5B4C}Textures/sand_sand_BCR.edds"
+ NHOMap "{43263672C34D1D5B}Textures/sand_sand_NHO.edds"
+ ScaleUV 1.4
+}
