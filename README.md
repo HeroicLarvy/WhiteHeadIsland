@@ -29,3 +29,21 @@ git push origin main
 ```
 
 Always run ```git pull``` before starting any work to ensure you have the latest changes.
+
+# World Editor
+1. To get started, open Reforger tools and hit +Add Project and scan for projects
+2. Double click project to open it
+3. In the Enfusion Workbench, find the globe in the bottom left corner "thingnamehere.ent" and double click it
+4. Once your World Editor loads, on the left within the Hierarchy, you will see a list of layers, right click and lock all of the layers that aren't yours
+5. Right click and unlock your layer, then right click and set it as active
+6. To place an object, look through your Resource Browser on the bottom center of your screen
+7. Example object placement: go to ArmaReforger>Prefabs>Structures>Houses>Tiwb>House_Town_E_2I01
+8. Drag the house to where you want to place it
+9. Press W to switch to move mode, and drag the arrows on the object to move it
+10. Press E to switch to rotate mode, drag the wedges around to rotate the object
+11. To generate something, press V or select the vector tool on the top bar
+12. Click the Vector Tool in the bottom right
+13. For areas select New Polyline, for roads/bushlines select New Spline
+14. Click on the ground where you want your line to start, hold ctrl and click to place another point
+15. In Resource Browser naviigate to ArmaReforger>PrefabLibrary>Generators
+16. Drag your desired Generator to your selected ShapeEntity inside your Heirarchy on the left
