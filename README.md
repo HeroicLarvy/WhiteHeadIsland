@@ -14,7 +14,7 @@ This is Larvy's dumb ass map. Don't grief it and mess things up!
 git config --global user.email "your@email.com"
 git config --global user.name "Your Name"  
 ```
-4. Create a new empty folder in your ARMA Reforger addons folder
+4. Create a new empty folder in your \Documents\My Games\ArmaReforgerWorkbench\addons
 5. In VSCode and open that folder via File>Open Folder
 6. In the Terminal, Clone the repo using ```git clone https://github.com/HeroicLarvy/WhiteHeadIsland.git```
 
