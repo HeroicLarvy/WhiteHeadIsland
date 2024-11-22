@@ -23,12 +23,15 @@ git config --global user.name "Your Name"
 2. Open the folder of the repo if it is not already selected, via File>Open Folder
 3. Open a terminal if one is not already open, via Terminal>New Terminal
 4. Run ```git pull```
-5. Do your work on Reforger tools, refer to the World Editor section before the next step if you are new
-6. Save your work
-7. Open VSCode and within the terminal, for each change you are comfortable with pushing enter the following commands
+5. Do your work on Reforger tools 
+
+Refer to the World Editor section before the next step if you are new
+
+6. When finished, save and close ArmaReforger tools 
+7. Open VSCode and within the terminal, enter the following commands
 ```
-git add '[PATH TO YOUR LAYER]'
-git commit -m "Meaningful commit message"
+git add '[PATH TO YOUR .LAYER FILE]'
+git commit -m "Message containing what you did"
 git push origin main
 ```
 
@@ -50,4 +53,6 @@ Always run ```git pull``` before starting any work to ensure you have the latest
 13. For areas select New Polyline, for roads/bushlines select New Spline
 14. Click on the ground where you want your line to start, hold ctrl and click to place another point
 15. In Resource Browser naviigate to ArmaReforger>PrefabLibrary>Generators
-16. Drag your desired Generator to your selected ShapeEntity inside your Heirarchy on the left
+16. Drag your desired Generator to your selected ShapeEntity inside your Hierarchy on the left
+
+A video guide on the basics of World Editor tools: https://youtu.be/qhxZ-R805ts
