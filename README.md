@@ -3,11 +3,12 @@
 This is Larvy's dumb ass map. Don't grief it and mess things up!
 
 # Setup
+0. Create a github account
 1. Install the following programs:
   * [VSCode](https://code.visualstudio.com/docs/?dv=win64user)
   * [Git](https://git-scm.com/downloads/win)
 
-2. Once Git is installed open VSCode and select Terminal>New Terminal
+2. Once they are both installed open VSCode and select Terminal>New Terminal
 3. Setup your git credentials using
 ```
 git config --global user.email "your@email.com"
