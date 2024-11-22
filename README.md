@@ -19,11 +19,13 @@ git config --global user.name "Your Name"
 6. In the Terminal, Clone the repo using ```git clone https://github.com/HeroicLarvy/WhiteHeadIsland.git```
 
 # Workflow
-1. Before starting work, open VSCode and the open the folder of the repo, ensure you have a terminal as well.
-2. Run ```git pull```
-3. Do your work on Reforger tools
-4. Save your work
-5. Open VSCode and within the terminal, for each change you are comfortable with pushing enter the following commands
+1. Before starting work, ensure you have a terminal as well.
+2. Open the folder of the repo if it is not already selected, via File>Open Folder
+3. Open a terminal if one is not already open, via Terminal>New Terminal
+4. Run ```git pull```
+5. Do your work on Reforger tools
+6. Save your work
+7. Open VSCode and within the terminal, for each change you are comfortable with pushing enter the following commands
 ```
 git add '[PATH TO YOUR LAYER]'
 git commit -m "Meaningful commit message"
