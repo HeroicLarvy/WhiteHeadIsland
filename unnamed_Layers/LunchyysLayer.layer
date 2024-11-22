@@ -1,0 +1,26 @@
+$grp GenericEntity : "{B06A2E966157FE64}Prefabs/Rocks/Granite/GraniteCliff_01_Fucus.et" {
+ {
+  coords 1054.478 18.721 2503.811
+ }
+ {
+  coords 1054.255 0 2503.656
+ }
+}
+$grp GenericEntity : "{F09A0FB3D74B7C23}Prefabs/Rocks/Granite/GraniteCliff_02_Fucus.et" {
+ {
+  coords 1040.357 0.885 2505.027
+  scale 0.33
+ }
+ {
+  coords 1063.572 0 2503.338
+  scale 0.33
+ }
+ {
+  coords 1045.26 -0.873 2503.24
+  scale 0.33
+ }
+ {
+  coords 1067.299 0.592 2503.345
+  scale 0.33
+ }
+}
