@@ -22,10 +22,10 @@ git config --global user.name "Your Name"
 1. Before starting work, open VSCode.
 2. Open the folder of the repo via File>Open Folder, select WhiteHeadIsland
 3. Open a terminal if one is not already open, via Terminal>New Terminal
-4. Ensure your current working directory in the terminal matches the directory you cloned
-   4.1 Use ```cd``` to change directories, use ```ls``` to see what folders are in your current directory.
-5. Run ```git pull```
-6. Do your work on Reforger tools 
+4. Ensure your current working directory in the terminal matches the directory you cloned. Use ```cd``` to change directories, use ```ls``` to see what folders are in your current directory.
+6. Run ```git pull```
+7. In the terminal create a new branch for you to work on, use ```git checkout -b [BRANCH NAME]``` without the brackets
+8. Do your work on Reforger tools 
 
 Refer to the World Editor section before the next step if you are new
 
@@ -34,8 +34,9 @@ Refer to the World Editor section before the next step if you are new
 ```
 git add Path\ToYour\.LayerFileHere
 git commit -m "Message containing what you did"
-git push origin main
+git push origin [BRANCH NAME]
 ```
+8. Go to the repo on github website, and click create a pull request (It should show up as a green button), if not go to "Pull Requests", click your branch and create a new pull request.
 
 Always run ```git pull``` before starting any work to ensure you have the latest changes.
 
