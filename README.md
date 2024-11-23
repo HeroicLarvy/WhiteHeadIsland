@@ -22,8 +22,10 @@ git config --global user.name "Your Name"
 1. Before starting work, open VSCode.
 2. Open the folder of the repo if it is not already selected, via File>Open Folder
 3. Open a terminal if one is not already open, via Terminal>New Terminal
-4. Run ```git pull```
-5. Do your work on Reforger tools 
+4. Ensure your current working directory in the terminal matches the directory you cloned
+   4.1 Use ```cd``` to change directories, use ```ls``` to see what folders are in your current directory.
+5. Run ```git pull```
+6. Do your work on Reforger tools 
 
 Refer to the World Editor section before the next step if you are new
 
