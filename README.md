@@ -32,7 +32,7 @@ Refer to the World Editor section before the next step if you are new
 7. When finished, save and close ArmaReforger tools 
 8. Open VSCode and within the terminal, enter the following commands
 
-```git add `Path\ToYour\.LayerFileHere` ``` To get your path right click on your layer file in your file explorer and copy path. The ` ` is needed
+```git add 'Path\ToYour\.LayerFileHere' ``` To get your path right click on your layer file in your file explorer and copy path. The `''` is needed
 
 ```git commit -m "*Message containing what you did*" ``` The " " is needed. Put a message of what you changed
 
