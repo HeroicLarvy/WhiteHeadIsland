@@ -17,35 +17,42 @@ git config --global user.name "Your Name"
 4. Create a new empty folder in your \Documents\My Games\ArmaReforgerWorkbench\addons
 5. In VSCode and open that folder via File>Open Folder
 6. In the Terminal, Clone the repo using ```git clone https://github.com/HeroicLarvy/WhiteHeadIsland.git```
+7. Open the folder of the repo via File>Open Folder, select WhiteHeadIsland
 
 # Workflow
 1. Before starting work, open VSCode.
 2. Open the folder of the repo via File>Open Folder, select WhiteHeadIsland
 3. Open a terminal if one is not already open, via Terminal>New Terminal
-4. Ensure your current working directory in the terminal matches the directory you cloned. Use ```cd``` to change directories, use ```ls``` to see what folders are in your current directory.
-6. Run ```git pull```
-7. In the terminal create a new branch for you to work on, use ```git checkout -b [BRANCH NAME]``` without the brackets
-8. Do your work on Reforger tools 
+4. Run ```git pull```
+5. In the terminal create a new branch for you to work on, use ```git checkout -b *BranchNameHere*``` without the brackets
 
 Refer to the World Editor section before the next step if you are new
 
-6. When finished, save and close ArmaReforger tools 
-7. Open VSCode and within the terminal, enter the following commands
-```
-git add Path\ToYour\.LayerFileHere
-git commit -m "Message containing what you did"
-git push origin [BRANCH NAME]
-```
+6. Do your work on Reforger tools 
+7. When finished, save and close ArmaReforger tools 
+8. Open VSCode and within the terminal, enter the following commands
+
+```git add `Path\ToYour\.LayerFileHere` ``` To get your path right click on your layer file in your file explorer and copy path. The ` ` is needed
+
+```git commit -m "*Message containing what you did*" ``` The " " is needed. Put a message of what you changed
+
+```git push origin *BranchNameHere* ``` Put the same branch name that you created before this will push your update to it
+
 8. Go to the repo on github website, and click create a pull request (It should show up as a green button), if not go to "Pull Requests", click your branch and create a new pull request.
 
-Always run ```git pull``` before starting any work to ensure you have the latest changes.
+Run ```git checkout main``` to switch back to main branch
+Run ```git pull``` before starting any work to ensure you have the latest changes
+
+Run ```git checkout *BranchNameHere*``` to switch back to your branch as needed
 
 # World Editor
+ENSURE ALL CHANGES YOU MAKE ARE TO YOUR LAYER ONLY, IF YOU CHANGE ANYTHING ELSE MAKE SURE TO CLEAR IT WITH OTHERS FIRST OR YOU MAY LOSE ALL OF YOUR CHANGES, I'VE TRIED TO RETARD PROOF THIS AS MUCH AS POSSIBLE SO BE CAREFUL
+
 1. To get started, open Reforger tools and hit +Add Project and scan for projects
 2. Double click project to open it
 3. In the Enfusion Workbench, find the globe in the bottom left corner "thingnamehere.ent" and double click it
 4. Once your World Editor loads, on the left within the Hierarchy, you will see a list of layers, right click and lock all of the layers that aren't yours
-5. Right click and unlock your layer, then right click and set it as active
+5. Right click and unlock your layer, then right click and set it as active, if you do not have a layer, right click the top most folder of the Hierarchy and create a new one, name it after yourself ```NameheresLayer```
 6. To place an object, look through your Resource Browser on the bottom center of your screen
 7. Example object placement: go to ArmaReforger>Prefabs>Structures>Houses>Tiwb>House_Town_E_2I01
 8. Drag the house to where you want to place it
