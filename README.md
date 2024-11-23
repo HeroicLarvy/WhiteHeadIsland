@@ -20,7 +20,7 @@ git config --global user.name "Your Name"
 
 # Workflow
 1. Before starting work, open VSCode.
-2. Open the folder of the repo if it is not already selected, via File>Open Folder
+2. Open the folder of the repo via File>Open Folder, select WhiteHeadIsland
 3. Open a terminal if one is not already open, via Terminal>New Terminal
 4. Run ```git pull```
 5. Do your work on Reforger tools 
