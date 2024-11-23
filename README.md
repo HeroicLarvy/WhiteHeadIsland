@@ -24,7 +24,7 @@ git config --global user.name "Your Name"
 2. Open the folder of the repo via File>Open Folder, select WhiteHeadIsland
 3. Open a terminal if one is not already open, via Terminal>New Terminal
 4. Run ```git pull```
-5. In the terminal create a new branch for you to work on, use ```git checkout -b *BranchNameHere*``` without the brackets
+5. In the terminal create a new branch for you to work on, use ```git checkout -b *BranchNameHere*```
 
 Refer to the World Editor section before the next step if you are new
 
@@ -38,7 +38,7 @@ Refer to the World Editor section before the next step if you are new
 
 ```git push origin *BranchNameHere* ``` Put the same branch name that you created before this will push your update to it
 
-8. Go to the repo on github website, and click create a pull request (It should show up as a green button), if not go to "Pull Requests", click your branch and create a new pull request.
+9. Go to the repo on github website, and click create a pull request (It should show up as a green button), if not go to "Pull Requests", click your branch and create a new pull request.
 
 Run ```git checkout main``` to switch back to main branch
 Run ```git pull``` before starting any work to ensure you have the latest changes
