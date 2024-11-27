@@ -1,8 +1,54 @@
+SCR_DestructibleBuildingEntity : "{038C64534186E863}PrefabLibrary/Structures/Commercial/FuelStation_E_01_building.et" {
+ coords 2167.163 0 3497.625
+ angleY 122.762
+}
 SCR_DestructibleBuildingEntity : "{1197707983F2D7CF}PrefabLibrary/Structures/Addons/Warehouse_01_Workshop.et" {
  coords 2296.087 0 3774.868
  angleY 140.211
 }
+StaticModelEntity : "{44F3B8B13878F063}PrefabLibrary/Infrastructure/Pavements/Asphalt/AsphaltPavement_01_Narrow_4m_C.et" {
+ coords 2179.392 -0.003 3488.322
+ angleY -57.619
+}
 SCR_DestructibleBuildingEntity : "{50309EB34CA81D70}PrefabLibrary/Structures/Houses/House_Prefab_2I01/House_Prefab_2I01t.et" {
  coords 2317.183 0.289 3768.262
  angleY -131.35
+}
+SCR_DestructibleBuildingEntity : "{61986EB0E0286DC7}PrefabLibrary/Structures/Commercial/FuelStation_E_01.et" {
+ coords 2180.111 0 3489.907
+ angleY -58.399
+}
+$grp SCR_DestructibleBuildingEntity : "{6A840CC1C486CFA0}PrefabLibrary/Structures/Commercial/FuelStation_E_01_tankpistol.et" {
+ {
+  coords 2181.02 0 3491.037
+  angleY 119.306
+ }
+ {
+  coords 2179.924 -0.022 3489.113
+  angleY -60.523
+ }
+}
+$grp GenericEntity : "{7F93BDB10482A993}PrefabLibrary/Infrastructure/Sings/SignFuelStation.et" {
+ {
+  coords 2098.277 4.5 3436.699
+  angleX -1.455
+  angleY -157.1
+  angleZ 1.183
+ }
+ {
+  coords 2235.727 4.249 3640.471
+  angleX -1.201
+  angleY 34.334
+  angleZ -0.948
+ }
+}
+$grp StaticModelEntity : "{CCA4C82ACFBA8457}PrefabLibrary/Structures/Agriculture/WeightStation_01_platform.et" {
+ {
+  coords 2177.012 4.525 3491.519
+  angleY 32.656
+ }
+ {
+  coords 2183.155 4.5 3487.568
+  angleY 31.532
+ }
 }
