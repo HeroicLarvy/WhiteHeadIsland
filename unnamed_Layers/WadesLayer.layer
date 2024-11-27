@@ -1,0 +1,8 @@
+SCR_DestructibleBuildingEntity : "{1197707983F2D7CF}PrefabLibrary/Structures/Addons/Warehouse_01_Workshop.et" {
+ coords 2296.087 0 3774.868
+ angleY 140.211
+}
+SCR_DestructibleBuildingEntity : "{50309EB34CA81D70}PrefabLibrary/Structures/Houses/House_Prefab_2I01/House_Prefab_2I01t.et" {
+ coords 2317.183 0.289 3768.262
+ angleY -131.35
+}
