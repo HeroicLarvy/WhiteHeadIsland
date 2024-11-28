@@ -6,6 +6,14 @@ SCR_DestructibleBuildingEntity : "{1197707983F2D7CF}PrefabLibrary/Structures/Add
  coords 2296.087 0 3774.868
  angleY 140.211
 }
+SCR_DestructibleBuildingEntity : "{13D9C4416ED532D2}PrefabLibrary/Structures/Houses/House_Village_E_1L02t.et" {
+ coords 3512.73 0.051 3884.359
+ angleY 69.113
+}
+SCR_DestructibleBuildingEntity : "{448D2BD96AA205E4}Prefabs/Structures/Houses/Village/HouseAddon_Garage_E_01/HouseAddon_Garage_E_01.et" {
+ coords 3374.227 -0.156 3988.418
+ angleY 89.091
+}
 StaticModelEntity : "{44F3B8B13878F063}PrefabLibrary/Infrastructure/Pavements/Asphalt/AsphaltPavement_01_Narrow_4m_C.et" {
  coords 2179.392 -0.003 3488.322
  angleY -57.619
@@ -28,6 +36,14 @@ $grp SCR_DestructibleBuildingEntity : "{6A840CC1C486CFA0}PrefabLibrary/Structure
   angleY -60.523
  }
 }
+SCR_DestructibleBuildingEntity : "{7C7E1F9CAAE53E82}PrefabLibrary/Infrastructure/Naval/PierConcrete_01_slide.et" {
+ coords 2197.129 -3.917 3485.408
+ angleX 1.068
+ angleY -60.376
+}
+SCR_DestructibleBuildingEntity : "{7F1927B928D12CB9}PrefabLibrary/Structures/Commercial/ShopHouse_E_2I01.et" {
+ coords 3493.294 0.018 3962.938
+}
 $grp GenericEntity : "{7F93BDB10482A993}PrefabLibrary/Infrastructure/Sings/SignFuelStation.et" {
  {
   coords 2098.277 4.5 3436.699
@@ -42,6 +58,15 @@ $grp GenericEntity : "{7F93BDB10482A993}PrefabLibrary/Infrastructure/Sings/SignF
   angleZ -0.948
  }
 }
+SCR_DestructibleBuildingEntity : "{8A54FD8F840E3BC4}PrefabLibrary/Structures/Houses/FarmHouse_E_1L01/FarmHouse_E_1L01_Green.et" {
+ coords 3393.599 0.525 4002.335
+ angleX 0.408
+ angleY -88.757
+}
+SCR_DestructibleBuildingEntity : "{BB32FDB0A276A95D}PrefabLibrary/Structures/Houses/House_Village_E_1I01.et" {
+ coords 3607.532 0.001 3930.135
+ angleY -38.142
+}
 $grp StaticModelEntity : "{CCA4C82ACFBA8457}PrefabLibrary/Structures/Agriculture/WeightStation_01_platform.et" {
  {
   coords 2177.012 4.525 3491.519
@@ -51,4 +76,8 @@ $grp StaticModelEntity : "{CCA4C82ACFBA8457}PrefabLibrary/Structures/Agriculture
   coords 2183.155 4.5 3487.568
   angleY 31.532
  }
+}
+StaticModelEntity : "{D90E2FC6F3C3D233}PrefabLibrary/Structures/Industrial/FuelTank_02/FuelTank_02.et" {
+ coords 2195.445 -0.001 3482.604
+ angleY 119.674
 }
